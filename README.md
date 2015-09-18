@@ -1,3 +1,3 @@
 # GeziNote
 
-Includes some resource codes of GeziNote.
+Has some resource codes of GeziNote Android app.

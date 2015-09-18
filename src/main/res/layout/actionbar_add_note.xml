@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:id="@+id/spin_addNote_trip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:paddingBottom="9dp"
+        android:paddingTop="9dp"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp"
+        android:background="#00796B"
+        android:popupBackground="#E0E0E0"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">GeziNote</string>
+    <string name="main_title_activity">GeziNote</string>
+
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="reg_fullname">Fullname</string>
+    <string name="login_btn_login">LOGIN</string>
+    <string name="reg_btn_register">REGISTER</string>
+    <string name="login_link_to_register">Not a member? Sign up</string>
+    <string name="reg_link_to_login">Already registered? Log in</string>
+    <string name="logout">Log out</string>
+
+    <string name="trip_options">Options</string>
+    <string name="trip_options_sync">Sync</string>
+    <string name="trip_options_edit">Edit</string>
+    <string name="trip_options_delete">Delete</string>
+
+    <string name="trip_label_no_note">No notes </string>
+    <string name="trip_label_note">Note</string>
+    <string name="trip_label_day">Day</string>
+
+    <string name="addtrip_save">Save</string>
+    <string name="addtrip_title">Title</string>
+    <string name="addtrip_start_date">Start:</string>
+    <string name="addtrip_end_date">End:</string>
+    <string name="addtrip_color">Color</string>
+    <string name="addtrip_title_hint">Type title</string>
+    <string name="addnote_title">Add Note</string>
+    <string name="addnote_hint">Write something</string>
+    <string name="shownote_activity_title">İspanya Trip</string>
+    <string name="shownote_options_edit">Edit</string>
+    <string name="shownote_options_delete">Delete</string>
+
+    <string name="editrip_activity_title">Edit Trip</string>
+    <string name="editrip_update">Update</string>
+    <string name="editrip_delete">Delete</string>
+    <string name="editnote_activity_title">Edit Note</string>
+
+    <string name="fab_add_trip">New Trip</string>
+
+    <string name="addtrip_default_color">Default color</string>
+
+    <!-- Order is important here: -->
+    <string-array name="country_names">
+        <item>Banana</item>
+        <item>Sage</item>
+        <item>Tomato</item>
+        <item>Peacock</item>
+        <item>Grape</item>
+        <item>Default color</item>
+    </string-array>
+
+    <integer-array name="country_codes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+    <string-array name="country_flags">
+        <item>@color/trip_color_banana</item>
+        <item>@color/trip_color_green</item>
+        <item>@color/trip_color_tomato</item>
+        <item>@color/trip_color_blue</item>
+        <item>@color/trip_color_purple</item>
+        <item>@color/trip_color_default</item>
+    </string-array>
+    <string name="action_sign_in_short">Sign Up</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="shownote_sync">Sync</string>
+    <string name="shownote__no_post">No notes added yet </string>
+    <string name="trip_label_days">Days</string>
+    <string name="trip_label_notes">Notes</string>
+    <string name="fab_add_note">New Note</string>
+    <string name="addtrip_activity_title">New Trip</string>
+    <string name="trip_dialog_permanent_delete">This trip will be deleted permanently.</string>
+    <string name="trip_dialog_cancel">Cancel</string>
+    <string name="trip_dialog_ok">Okay</string>
+    <string name="trip_msg_deleted">The trip has been deleted.</string>
+    <string name="note__dialog_cancel">Cancel</string>
+    <string name="note__dialog_ok">Okay</string>
+    <string name="note__dialog_permanate_delete">This note will be deleted permanently.</string>
+    <string name="note__msg_deleted">The note has been deleted.</string>
+    <string name="note__msg_error">An error happened while deleting the note.</string>
+    <string name="main__no_trip">No trip to display yet.</string>
+    <string name="login__logging_in">Logging in...</string>
+    <string name="login__unfilled_field">All fields must be filled.</string>
+    <string name="editnote__note_updated">The note has been updated.</string>
+    <string name="editrip__trip_updated">The trip has been updated.</string>
+    <string name="addtrip__trip_saved">The trip has been added.</string>
+    <string name="addtrip__unfilled_field">All fields must be filled.</string>
+    <string name="addnote__note_saved">The note has been added.</string>
+    <string name="addnote__no_note">You have forgotten to write note.</string>
+    <string name="options">Options</string>
+    <string name="reg_title_activity">Sign Up</string>
+    <string name="color_activity_title">Choose color</string>
+</resources>

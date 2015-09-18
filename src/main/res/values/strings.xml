@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">GeziNote</string>
+    <string name="options">Seçenekler</string>
+    <string name="logout">Oturumu Kapat</string>
+    <!-- Login -->
+    <string name="login_email">E-posta</string>
+    <string name="login_password">Şifre</string>
+    <string name="login_btn_login">GİRİŞ</string>
+    <string name="login_link_to_register">Hesabın yok mu? Kayıt ol</string>
+    <string name="login__unfilled_field">Lütfen boş alan bırakmayın!</string>
+    <string name="login__logging_in">Giriş yapılıyor...</string>
+    <!-- Register -->
+    <string name="reg_title_activity">Kayıt Ol</string>
+    <string name="reg_fullname">Ad Soyad</string>
+    <string name="reg_btn_register">KAYIT</string>
+    <string name="reg_link_to_login">Zaten üye misin? Giriş yap</string>
+    <!-- Main -->
+    <string name="main__no_trip">Henüz hiç gezi eklenmemiş.</string>
+    <string name="fab_add_trip">Yeni Gezi</string>
+    <string name="fab_add_note">Yeni Note</string>
+    <string name="trip_options">Seçenekler</string>
+    <string name="trip_options_sync">Senkronize et</string>
+    <string name="trip_options_edit">Düzenle</string>
+    <string name="trip_options_delete">Sil</string>
+    <!-- TripAdapter -->
+    <string name="trip_label_day">Gün</string>
+    <string name="trip_label_days">Gün</string>
+    <string name="trip_label_no_note">Not yok</string>
+    <string name="trip_label_note">Not</string>
+    <string name="trip_label_notes">Not</string>
+    <string name="trip_dialog_permanent_delete">Bu gezi kalıcı olarak silinecek.</string>
+    <string name="trip_msg_deleted">Gezi silindi.</string>
+    <string name="trip_dialog_ok">Tamam</string>
+    <string name="trip_dialog_cancel">Vazgeç</string>
+    <!-- AddTrip -->
+    <string name="addtrip_activity_title">Yeni gezi</string>
+    <string name="addtrip_save">Kaydet</string>
+    <string name="addtrip_title_hint">Başlık girin</string>
+    <string name="addtrip_title">Başlık</string>
+    <string name="addtrip_start_date">Başlangıç:</string>
+    <string name="addtrip_end_date">Bitiş:</string>
+    <string name="addtrip_color">Renk</string>
+    <string name="addtrip_default_color">Varsayılan renk</string>
+    <string name="addtrip__unfilled_field">Tüm alanları doldurmanız gerekmektedir.</string>
+    <string name="addtrip__trip_saved">Gezi eklendi.</string>
+    <string name="color_activity_title">Renk seç</string>
+    <!-- EditTrip -->
+    <string name="editrip_activity_title">Geziyi Düzenle</string>
+    <string name="editrip_update">Güncelle</string>
+    <string name="editrip_delete">Sil</string>
+    <string name="editrip__trip_updated">Gezi güncellendi.</string>
+    <!-- ShowNote -->
+    <string name="shownote_activity_title">İspanya Gezisi</string>
+    <string name="shownote_sync">Senkronize et</string>
+    <string name="shownote_options_edit">Düzenle</string>
+    <string name="shownote_options_delete">Sil</string>
+    <string name="shownote__no_post">Henüz hiç not eklenmedi</string>
+    <!-- NoteAdapter -->
+    <string name="note__dialog_ok">Tamam</string>
+    <string name="note__dialog_cancel">Vazgeç</string>
+    <string name="note__msg_deleted">Not silindi.</string>
+    <string name="note__msg_error">Not silinirken hata meydana geldi.</string>
+    <!-- AddNote -->
+    <string name="addnote_title">Not Ekle</string>
+    <string name="addnote_hint">Bir şeyler yazın</string>
+    <string name="addnote__no_note">Not yazmayı unuttunuz.</string>
+    <string name="addnote__note_saved">Not eklendi.</string>
+    <!-- EditNote -->
+    <string name="editnote_activity_title">Notu Düzenle</string>
+    <string name="editnote__note_updated">Not güncellendi.</string>
+
+    <!-- Order is important here: -->
+    <string-array name="country_names">
+        <item>Muz</item>
+        <item>Ada Çayı</item>
+        <item>Domates</item>
+        <item>Turkuaz</item>
+        <item>Üzüm</item>
+        <item>Varsayılan Renk</item>
+    </string-array>
+
+    <integer-array name="country_codes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+    <string-array name="country_flags">
+        <item>@color/trip_color_banana</item>
+        <item>@color/trip_color_green</item>
+        <item>@color/trip_color_tomato</item>
+        <item>@color/trip_color_blue</item>
+        <item>@color/trip_color_purple</item>
+        <item>@color/trip_color_default</item>
+    </string-array>
+    <string name="note__dialog_permanate_delete">Bu not kalıcı olarak silinecek.</string>
+</resources>
